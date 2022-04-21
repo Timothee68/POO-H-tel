@@ -1,0 +1,37 @@
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+span{
+    
+    background-color: rgb(50, 255, 47);
+    color:white;
+
+}
+#red{
+    background-color: red;
+    color: white;
+}
+table{
+    border-collapse: collapse;
+    font-size: 15px;
+    width: 100%;
+}
+thead{
+    background-color: rgba(116, 116, 116,0.3);
+}
+
+th{
+    width: 25%;
+    height: 40px;
+}
+tbody:nth-child(3),tbody:nth-child(5),tbody:nth-child(7),tbody:nth-child(9){
+    background-color: rgba(116, 116, 116,0.1);
+
+}
+hr{
+    border-top: 6px solid rgb(167, 112, 44);
+    border-radius: 5px;
+    width: 20%;
+}
